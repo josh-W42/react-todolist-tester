@@ -8,7 +8,7 @@ const todos = ["Buy Candy", "Workout", "practice more coding."];
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoList list={todos} />
+    <TodoList className="todoList" list={todos} />
   </React.StrictMode>,
   document.getElementById('root')
 );

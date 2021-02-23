@@ -1,0 +1,18 @@
+.todo-list {
+  background-color: rgb(210, 249, 159);
+  width: 25%;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.todo-list li {
+  list-style-type: none;
+}
+
+.todo-list ul {
+  margin: auto;
+  width: 50%;
+  padding: 0;
+}
