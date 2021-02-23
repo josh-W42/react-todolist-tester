@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import TodoList from './TodoList';
 import reportWebVitals from './reportWebVitals';
+
+const todos = ["Buy Candy", "Workout", "practice more coding."];
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoList list={todos} />
   </React.StrictMode>,
   document.getElementById('root')
 );
