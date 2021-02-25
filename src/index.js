@@ -4,11 +4,9 @@ import './index.css';
 import TodoList from './TodoList';
 import reportWebVitals from './reportWebVitals';
 
-const todos = ["Buy Candy", "Workout", "practice more coding."];
-
 ReactDOM.render(
   <React.StrictMode>
-    <TodoList className="todoList" list={todos} />
+    <TodoList className="todoList" />
   </React.StrictMode>,
   document.getElementById('root')
 );

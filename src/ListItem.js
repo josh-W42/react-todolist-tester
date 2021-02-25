@@ -1,7 +1,10 @@
 const ListItem = (props) => {
   return (
     <>
-      <li>{props.value}</li>
+      <li>
+        <p>{props.value}</p>
+        <button onClick={props.remove}>Remove</button>
+      </li>
       <hr/>
     </>
   )
